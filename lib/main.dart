@@ -4,8 +4,8 @@ import 'bloc_oserver.dart';
 import 'layout/home_screen.dart';
 
 void main(List<String> args) async {
-  // WidgetsFlutterBinding
-  //     .ensureInitialized(); //بيتاكد ان كل حاجه خلصت في الميثود وبعديم يرن الابلكيششن
+  WidgetsFlutterBinding
+      .ensureInitialized(); //بيتاكد ان كل حاجه خلصت في الميثود وبعديم يرن الابلكيششن
 
   BlocOverrides.runZoned(
     () {
